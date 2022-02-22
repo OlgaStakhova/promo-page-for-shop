@@ -1,0 +1,21 @@
+.new-collection {
+  padding: 40px 0 80px 0;
+
+  .new-collection-title {
+    @include font-settings(48px, 56px);
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .new-collection-list {
+    display: flex;
+  }
+
+  .new-collection-img {
+    transition: all 0.4s linear;
+  }
+
+  .new-collection-item a:hover img {
+    transform: scale(1.2);
+  }
+}

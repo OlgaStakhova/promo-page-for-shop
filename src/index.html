@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+  <title> </title>
+</head>
+
+<body>
+  <header class="header-page">
+    <div class="container">
+      <div class="header-wraper">
+        <a href="http://abrakadabra.com.ua/" class="logo"> <img src="./images/logo.png" alt=""></a>
+        <ul class="nav">
+          <li class="nav-item"><a href="http://abrakadabra.com.ua/">На главную</a> </li>
+          <li class="nav-item"><a href="http://abrakadabra.com.ua/">Каталог</a> </li>
+          <li class="nav-item"><a href="http://abrakadabra.com.ua/kontaktu.html">Контакты</a> </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-slider">
+      <div class="container">
+        <div class="slider">
+          <div class="slider-show" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+            <div><img src="./images/slide-card/coat-one-img-700x800.jpg" alt=""> </div>
+            <div><img src="./images/slide-card/coat-two-img.jpg" alt=""> </div>
+            <div><img src="./images/slide-card/coat-three-img-700x800.jpg" alt=""> </div>
+            <div><img src="./images/slide-card/dress-img-700x800.jpg" alt=""> </div>
+            <div><img src="./images/slide-card/dresstwo-img-700x800.jpg" alt=""> </div>
+            <div><img src="./images/slide-card/dress-three-img-700x800.jpg" alt=""> </div>
+            <div><img src="./images/slide-card/dresstwo-img-700x800.jpg" alt=""> </div>
+            <div><img src="./images/slide-card/dresstwo-one-img-700x800.jpg" alt=""> </div>
+            <div><img src="./images/slide-card/dresstwo-three-img-700x800.jpg" alt=""> </div>
+            <div><img src="./images/slide-card/suit-img-700x800.jpg" alt=""> </div>
+            <div><img src="./images/slide-card/suit-one-img-700x800.jpg" alt=""> </div>
+            <div><img src="./images/slide-card/suit-two-img-700x800.jpg" alt=""> </div>
+            <div><img src="./images/slide-card/trauser-suit-img-700x800.jpg" alt=""> </div>
+            <div><img src="./images/slide-card/trauser-suit-one-img-700x800.jpg" alt=""> </div>
+            <div><img src="./images/slide-card/trauser-suit-two-img-700x800.jpg" alt=""> </div>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="http://abrakadabra.com.ua/" class="nav-item">За покупками</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section-sale">
+      <div class="container">
+        <div class="wraper-sale">
+          <p class="sale-description">Сезонные скидки <br> <span class="description-span">- 50%</span> </p>
+          <img src="./images/sale_w800_h640_img_5128.550x550-700x800.jpg" alt="" class="sale-img">
+          <div class="price">
+            <p><span>840 грн</span> <br> 420 грн </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-feedback">
+      <div class="container">
+        <p class="feedback-description">Подпишись на рассылку,<br>чтоб не пропустить наши скидки и распродажи!</p>
+        <button id="buttonFeedback" type="button" class="open-feedback-modal"> Подписаться
+        </button>
+      </div>
+    </section>
+
+    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+          <header class="modal__header">
+            <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+          </header>
+          <main class="modal__content" id="modal-1-content">
+            <form method="GET" class="feedback-form">
+              <input type="email" class="feedback-input" name="email" placeholder="Введите ваш e-mail" required>
+              <button class="feedback-submit" type="submit">Подписаться</button>
+            </form>
+          </main>
+        </div>
+      </div>
+    </div>
+
+    <section class="new-collection">
+      <div class="wraper-new">
+        <h2 class="new-collection-title">Новая коллекция</h2>
+        <ul class="new-collection-list">
+          <li class="new-collection-item">
+            <a href="http://abrakadabra.com.ua/palto/pt00922.html">
+              <img src="./images/new/img-first.jpg" alt="" class="new-collection-img img-first">
+            </a>
+          </li>
+          <li class="new-collection-item">
+            <a href="http://abrakadabra.com.ua/palto/pt00855.html">
+              <img src="./images/new/img-second.jpg" alt="" class="new-collection-img img-second">
+            </a>
+          </li>
+          <li class="new-collection-item">
+            <a href="http://abrakadabra.com.ua/palto/pt00850.html">
+              <img src="./images/new/img-third.jpg" alt="" class="new-collection-img img-third">
+            </a>
+          </li>
+          <li class="new-collection-item">
+            <a href="http://abrakadabra.com.ua/palto/pl235.html">
+              <img src="./images/new/img-fourth.jpg" alt="" class="new-collection-img img-fourth">
+            </a>
+          </li>
+          <li class="new-collection-item">
+            <a href="http://abrakadabra.com.ua/kostymi/ks2013.html">
+              <img src="./images/new/img-fifth.jpg" alt="" class="new-collection-img img-fifth">
+            </a>
+          </li>
+          <li class="new-collection-item">
+            <a href="http://abrakadabra.com.ua/platja/pl001056.html">
+              <img src="./images/new/img-sixth.jpg" alt="" class="new-collection-img img-sixth">
+            </a>
+          </li>
+          <li class="new-collection-item">
+            <a href="http://abrakadabra.com.ua/kombinizon/kb001049.html">
+              <img src="./images/new/img-seventh.jpg" alt="" class="new-collection-img img-seventh">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer-page">
+    <div class="container footer-wraper">
+      <ul class="footer-list">
+        <li class="footer-item"><a href="http://abrakadabra.com.ua/kontaktu.html">Контакты</a></li>
+        <li class="footer-item"><a href="http://abrakadabra.com.ua/dostavka_oplata.html">Доставка и оплата</a></li>
+        <li class="footer-item"><a href="http://abrakadabra.com.ua/tabl_razmer.html">Таблица размеров</a></li>
+        <li class="footer-item"><a href="http://abrakadabra.com.ua/blog.html">Abrakadabra News</a></li>
+      </ul>
+      <div class="author-wraper">
+        <p class="copyright">© abrakadabra.com.ua ®</p>
+        <p class="author">Stachova Olga 2021</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

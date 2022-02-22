@@ -1,0 +1,13 @@
+@import 'normalize';
+@import './helpers/variables';
+@import './helpers/mixins';
+@import 'fonts';
+@import 'base';
+@import 'header-page';
+@import './section/section-slide';
+@import './section/section-sale';
+@import './section/section-feedback';
+@import './helpers/modal';
+@import './section/section-new-collection.scss';
+@import 'footer';
+

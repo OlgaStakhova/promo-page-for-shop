@@ -1,0 +1,40 @@
+.section-feedback {
+  padding: 100px 0;
+  margin-top: 50px;
+  background-image: url(./../images/abr-woman.png);
+  background-position: 15% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  .feedback-description {
+    @include font-settings(32px, 36px, 700, #041046);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .open-feedback-modal {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .open-feedback-modal {
+    color: rgb(5, 4, 58);
+    font-weight: 700;
+    line-height: 32px;
+    border: 1px solid rgba(141, 140, 140, 0.4);
+    text-align: center;
+    width: 150px;
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 15px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+
+  .open-feedback-modal:hover {
+    transform: scale(1.1);
+  }
+}
